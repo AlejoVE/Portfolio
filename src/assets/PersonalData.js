@@ -31,17 +31,17 @@ const personData = {
 
 	socialMedias: [
 		{
-			url: `https://www.linkedin.com/in/berihu-gebre/`,
+			url: `https://www.linkedin.com/in/alejandro-montilla/`,
 			icon: `fab fa-linkedin-in`,
-			name: `Linkedin`,
+			name: `LinkedIn`,
 		},
 		{
-			url: `https://github.com/berihugebre`,
+			url: `https://github.com/AlejoVE`,
 			icon: `fab fa-github`,
 			name: `Github`,
 		},
 		{
-			url: `https://twitter.com/Berihu74658089`,
+			url: `https://twitter.com/AleMontilla_dev`,
 			icon: `fab fa-twitter`,
 			name: `Twitter`,
 		},

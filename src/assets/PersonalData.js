@@ -1,4 +1,4 @@
-import profilePiPicture from './images/profilepic.jpeg';
+import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/resume.pdf';
 import vrconnetion from './images/vrconnection.png';
 import merhatibebAcademy from './images/merhatibeb.png';
@@ -18,7 +18,7 @@ const personData = {
 		email: `ale.montilla.dev@gmail.com`,
 		address: `Rue de la Tonne, 80B 4000 Liege, Belgium`,
 		profession: [`Web Developer`],
-		profilePiPicture,
+		profilePiPicture: profilePicture,
 		resume,
 		logo,
 	},

@@ -1,5 +1,5 @@
 import profilePicture from './images/profilePicture.jpg';
-import resume from './documents/resume.pdf';
+import resume from './documents/resume-Alejandro-Montilla.pdf';
 import vrconnetion from './images/vrconnection.png';
 import merhatibebAcademy from './images/merhatibeb.png';
 import portfolio from './images/portfolio.png';

@@ -26,7 +26,7 @@ const personData = {
 	backgroundSlides: {
 		slideOne: bg1,
 		slideTwo: bg2,
-		slideThree: bg3,
+		// slideThree: bg3,
 	},
 
 	socialMedias: [
@@ -49,76 +49,75 @@ const personData = {
 
 	background: [
 		{
-			school: `Open Summer Of Code`,
-			url: `https://summerofcode.be/`,
-			experience: `Currently Back-End developer at `,
+			school: `BeCode`,
+			url: `https://becode.org/`,
+			experience: `Currently Junior Web Developer at `,
 		},
 		{
-			school: `HackYourFutureBelgium`,
+			school: `Hack Your Future Belgium`,
 			url: `https://hackyourfuture.be/`,
-			experience: `I am a quality-oriented recent  Web developer graduate from`,
+			experience: `I graduated as a fullstack web developer after completing an intensive 8-month program at `,
 		},
 		{
-			school: `HackYourFutureBelgium Bootcamp`,
-			url: `https://bootcamp.hackyourfuture.be/`,
-			experience: `I participated 1 month bootcamp in Ghent with`,
+			school: `Hack Your future Belgium, in partnership with Microsoft Belgium.`,
+			url: `https://facebook.com/story.php?story_fbid=788925451888092&id=163264831120827`,
+			experience: `I participated in  a month-long bootcamp at `,
 		},
+		,
 		{
-			school: `Merhatibeb Academy`,
-			url: `http://merhatibebacademy.com/`,
-			experience: `I worked as an ICT teacher and system administrator for 2 years in`,
-		},
-		{
-			school: `Mekelle University`,
-			url: `http://www.mu.edu.et/`,
-			experience: `I graduated in 2016 holding Postgraduate Diploma In Teaching Secondary School with CGPA 3.53/4.00 from`,
-		},
-		{
-			school: `Adigrat University`,
-			url: `http://www.adu.edu.et/`,
-			experience: `I graduated in 2015 holding BSC degree in mathematics with CGPA 3.98/4.00 from`,
+			school: ``,
+			url: ``,
+			experience: `I'm passionate about technology and web development.`,
 		},
 		{
 			school: ``,
 			url: ``,
-			experience: `Every morning I am an improved version of myself and I'm top fun of playing Ping pong `,
+			experience: `I have a high sense of responsibility, I'm very disciplined and persevering.`,
+		},
+		{
+			school: ``,
+			url: ``,
+			experience: `I love hiking, visiting museums, traveling and discovering new places and cultures.`,
+		},
+		{
+			school: ``,
+			url: ``,
+			experience: `I'm an open minded person, always willing to help and bring positive things to the people around me.`,
 		},
 	],
 
 	skills: [
 		{
-			name: `frontend`,
+			name: `front end`,
 			language: [
-				`HTML5`,
-				`CSS3`,
-				`JavaScript`,
-				`React`,
-				`Bootstrap 4`,
-				`Wordpress`,
-				`Elementor`,
-				`Leaflet`,
-				`Svelte`,
+				`HTML5,`,
+				`CSS3,`,
+				`JavaScript,`,
+				`React,`,
+				`Redux,`,
+				`Bootstrap 4,`,
+				`SASS`,
 			],
 			icon: `fas fa-laptop-code`,
 		},
 		{
-			name: `backend`,
-			language: [`Node`, `Express`, `GraphQL`, `Socket.io`],
+			name: `back-end`,
+			language: [`Node,`, `Express`],
 			icon: `fas fa-code`,
 		},
 		{
 			name: `database`,
-			language: [`MongoDB`, `MYSQL`],
+			language: [`MongoDB,`, `SQLite`],
 			icon: `fas fa-database`,
 		},
 		{
 			name: `version control`,
-			language: [`Git`, `Github`],
+			language: [`Git,`, `Github`],
 			icon: `fas fa-code-branch`,
 		},
 		{
 			name: `cloud`,
-			language: [`Heroku`, `Netlify`, `Firebase`, `Siteground`],
+			language: [`Heroku,`, `Netlify`],
 			icon: `fas fa-cloud`,
 		},
 	],

@@ -1,10 +1,10 @@
 import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/resume-Alejandro-Montilla.pdf';
-import vrconnetion from './images/vrconnection.png';
-import merhatibebAcademy from './images/merhatibeb.png';
+import multicube from './images/multicube-min.png';
+import calendarApp from './images/calendar-app-min.png';
 import portfolio from './images/portfolio.png';
 import bivak from './images/bivak.png';
-import chatMe from './images/chat.png';
+import musicApp from './images/music-app-min.png';
 import manon from './images/Manon-Brulard.jpg';
 import logo from './images/logo.png';
 import bg1 from './images/bg-1.jpg';
@@ -134,40 +134,46 @@ const personData = {
 
 	projects: [
 		{
-			title: 'Merhatibeb Academy',
-			technologies: ['wordpress', `Elementor`, `Siteground`],
-			about: `A private school website`,
-			image: merhatibebAcademy,
-			url: `http://merhatibebacademy.com/`,
+			title: 'MusicApp',
+			technologies: ['React,', `SASS,`, `Spotify API,`, `Netlify`],
+			about: `A cool application where you can explore different categories, playlists and add songs to my Spotify playlist.`,
+			image: musicApp,
+			repo: `https://github.com/AlejoVE/MusicApp`,
+			url: `https://music-app-alejove.netlify.app/`,
 		},
 		{
-			title: ' VRConection',
+			title: 'CalendarApp',
 			technologies: [
-				'React',
-				`Bootstrap`,
-				`Nodejs`,
-				`Mongodb`,
-				`Express`,
-				`Firebase`,
-				`Google Cloud Platform`,
-			],
-			about: `A web app that connects refugee and volunteers`,
-			image: vrconnetion,
-			url: `https://vrconnection-9c6e5.web.app/`,
-		},
-		{
-			title: 'Chat-Me',
-			technologies: [
-				'React',
-				`CSS3`,
-				`Socket.io`,
-				`Nodejs`,
+				'React,',
+				'Redux,',
+				`Bootstrap,`,
+				`Nodejs,`,
+				`MongoDB,`,
+				`Express,`,
+				'JWT, ',
+				`Heroku,`,
 				`Netlify`,
+			],
+			about: `Cooperative calendar application that can be used by teams.`,
+			image: calendarApp,
+			repo: 'https://github.com/AlejoVE/Calendar-app-MERN',
+			url: `https://calendar-app-mern.netlify.app/`,
+		},
+		{
+			title: 'MultiCube',
+			technologies: [
+				'React, ',
+				`Bootstrap, `,
+				`Nodejs, `,
+				`Express, `,
+				'MongoDB, ',
+				`Netlify, `,
 				`Heroku`,
 			],
-			about: `A real time chat app`,
-			image: chatMe,
-			url: `https://be-chat.netlify.app/`,
+			about: `A web app to teach numbers and addition to children between 7 and 10 years old. This was a month-long bootcamp project, where I had a role as a fullstack developer, but mainly in the back-end.`,
+			image: multicube,
+			repo: 'https://github.com/multicube-hyf/backend',
+			url: `https://multicube.netlify.app/`,
 		},
 		{
 			title: ' Portfolio',

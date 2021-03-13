@@ -175,27 +175,27 @@ const personData = {
 			repo: 'https://github.com/multicube-hyf/backend',
 			url: `https://multicube.netlify.app/`,
 		},
-		{
-			title: ' Portfolio',
-			technologies: ['React', `Bootstrap`, `Netlify`],
-			about: `personal portfolio about me `,
-			image: portfolio,
-			url: `https://berihu.netlify.app/`,
-		},
-		{
-			title: ' Locate Bivouac Zone',
-			technologies: [
-				'React',
-				`Open Street Map`,
-				`Leaflet`,
-				`Express`,
-				`Mongodb`,
-				`Heroku`,
-			],
-			about: `a web app that helps nature lovers to find a bivouac zone in Belgium`,
-			image: bivak,
-			url: `https://bivak.netlify.app/`,
-		},
+		// {
+		// 	title: ' Portfolio',
+		// 	technologies: ['React', `Bootstrap`, `Netlify`],
+		// 	about: `personal portfolio about me `,
+		// 	image: portfolio,
+		// 	url: `https://berihu.netlify.app/`,
+		// },
+		// {
+		// 	title: ' Locate Bivouac Zone',
+		// 	technologies: [
+		// 		'React',
+		// 		`Open Street Map`,
+		// 		`Leaflet`,
+		// 		`Express`,
+		// 		`Mongodb`,
+		// 		`Heroku`,
+		// 	],
+		// 	about: `a web app that helps nature lovers to find a bivouac zone in Belgium`,
+		// 	image: bivak,
+		// 	url: `https://bivak.netlify.app/`,
+		// },
 	],
 };
 

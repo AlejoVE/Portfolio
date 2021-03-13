@@ -1,7 +1,22 @@
 import React from 'react';
 import person from '../assets/PersonalData';
+import { sendEmail } from '../helpers/sendEmail';
+import { useForm } from '../hooks/useForm';
 
 const Contact = () => {
+	const [formValues, handleInputChanges, reset] = useForm({
+		subject: '',
+		email: '',
+		message: '',
+	});
+
+	const { email, subject, message } = formValues;
+
+	const handleSend = (e) => {
+		e.preventDefault();
+		sendEmail({ email, subject, message });
+		reset();
+	};
 	return (
 		<div id='contact' className='container-fluid padding' bg='dark'>
 			<div className='row headers text-center padding'>
@@ -48,14 +63,16 @@ const Contact = () => {
 				</div>
 				<div className=' text-center p-5 col-sm-12 col-md-6 col-lg-6'>
 					<h2 className='pb-2'>I'm Ready Let's Talk</h2>
-					<form name='contact' method='post'>
+					<form name='contact' method='post' onSubmit={handleSend}>
 						<input type='hidden' name='form-name' value='contact' />
 						<div className='form-group'>
 							<input
 								type='text'
-								name='name'
-								placeholder='Your Name'
+								name='subject'
+								value={subject}
+								placeholder='Subject'
 								className='form-control'
+								onChange={handleInputChanges}
 								required
 							/>
 						</div>
@@ -63,9 +80,11 @@ const Contact = () => {
 							<input
 								type='email'
 								name='email'
+								value={email}
 								placeholder='Your Email'
 								className='form-control'
 								required
+								onChange={handleInputChanges}
 							/>
 						</div>
 						<div className='form-group'>
@@ -75,6 +94,8 @@ const Contact = () => {
 								placeholder='Your Message'
 								rows='6'
 								required
+								value={message}
+								onChange={handleInputChanges}
 							></textarea>
 						</div>
 						<button

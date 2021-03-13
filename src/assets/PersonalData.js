@@ -2,14 +2,14 @@ import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/resume-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
-import portfolio from './images/portfolio.png';
-import bivak from './images/bivak.png';
+// import portfolio from './images/portfolio.png';
+// import bivak from './images/bivak.png';
 import musicApp from './images/music-app-min.png';
 import manon from './images/Manon-Brulard.jpg';
 import logo from './images/logo.png';
 import bg1 from './images/bg-1.jpg';
 import bg2 from './images/bg-2.jpg';
-import bg3 from './images/bg-3.jpg';
+// import bg3 from './images/bg-3.jpg';
 
 const personData = {
 	about: {
@@ -63,7 +63,7 @@ const personData = {
 			url: `https://facebook.com/story.php?story_fbid=788925451888092&id=163264831120827`,
 			experience: `I participated in  a month-long bootcamp at `,
 		},
-		,
+
 		{
 			school: ``,
 			url: ``,

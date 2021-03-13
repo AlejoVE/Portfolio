@@ -8,17 +8,17 @@ const Footer = () => {
 				<div className='row text-center'>
 					<div className='col-md-4'>
 						{/* <img src={person.about.logo} width="50" height="52" alt="logo"/> */}
-						<span>Berihu</span>
+						<span>Alejandro</span>
 						<hr className='light' />
-						<p>+3246-5327-617</p>
-						<p>berihu05.20@gmail.com</p>
+						<p>+32 487 75 18 95</p>
+						<p>ale.montilla.dev@gmail.com</p>
 					</div>
 					<div className='col-md-4'>
 						<hr className='light' />
 						<h5>Address</h5>
 						<hr className='light' />
-						<p>Oostrozebekestraat 26</p>
-						<p>Ingelmunster, Belgium</p>
+						<p>Rue de la Tonne, 80B</p>
+						<p>Liege, Belgium</p>
 					</div>
 					<div className='col-md-4'>
 						<hr className='light' />
@@ -39,14 +39,7 @@ const Footer = () => {
 					<div className='col-12'>
 						<hr className='light-100' />
 						<h5 className='footer-media'>
-							&copy;2020{' '}
-							<a
-								href='https://berihu.netlify.app/'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								Berihu Gebremedhin
-							</a>
+							&copy;2021 Alejandro Montilla
 						</h5>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import person from '../assets/PersonalData';
+// import person from '../assets/PersonalData';
 
 const Header = () => {
 	return (

@@ -19,10 +19,10 @@ const Home = () => {
 							<span role='img' aria-label='hi-emoji'>
 								👋{' '}
 							</span>
-							Nice To Meet You!
+							Nice to meet you!
 						</h3>
 						<h3>
-							I'm A {` `}{' '}
+							I'm a {` `}{' '}
 							<Typical
 								steps={person.about.profession}
 								loop={1}
@@ -34,7 +34,7 @@ const Home = () => {
 								type='button'
 								className='btn btn-outline-light btn-lg'
 							>
-								Contact Me
+								Contact me
 							</button>
 						</a>
 						<a href='#projects'>
@@ -42,7 +42,7 @@ const Home = () => {
 								type='button'
 								className='btn btn-primary btn-lg ml-3'
 							>
-								See Projects
+								See projects
 							</button>
 						</a>
 						<div className='dropdown animate__animated animate__bounce animate__repeat-3 animate__slower'>
@@ -55,7 +55,7 @@ const Home = () => {
 				<div className='carousel-item'>
 					<img src={person.backgroundSlides.slideTwo} alt='background-2' />
 					<div className='carousel-caption'>
-						<h1>Follow Me</h1>
+						<h1>Follow me</h1>
 						<ul className='col-12 media d-flex justify-content-center list-inline'>
 							{person.socialMedias.map((media, index) => (
 								<li key={index} className='list-inline-item'>

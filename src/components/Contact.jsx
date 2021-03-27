@@ -30,7 +30,7 @@ const Contact = () => {
 					<div className='container-fluid padding'>
 						<div className='row text-center padding'>
 							<div className='col-12 p-5'>
-								<h2>Follow Me</h2>
+								<h2>Follow me</h2>
 								<ul className='col-12 media d-flex justify-content-center list-inline'>
 									{person.socialMedias.map((media, index) => (
 										<li key={index} className='list-inline-item'>
@@ -62,7 +62,7 @@ const Contact = () => {
 					</div>
 				</div>
 				<div className=' text-center p-5 col-sm-12 col-md-6 col-lg-6'>
-					<h2 className='pb-2'>I'm Ready Let's Talk</h2>
+					<h2 className='pb-2'>I'm ready, let's talk</h2>
 					<form name='contact' method='post' onSubmit={handleSend}>
 						<input type='hidden' name='form-name' value='contact' />
 						<div className='form-group'>

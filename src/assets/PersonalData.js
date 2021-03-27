@@ -2,7 +2,7 @@ import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/resume-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
-// import portfolio from './images/portfolio.png';
+import LigthZ from './images/lightZ-min.png';
 // import bivak from './images/bivak.png';
 import musicApp from './images/music-app-min.png';
 import manon from './images/Manon-Brulard.jpg';
@@ -17,7 +17,7 @@ const personData = {
 		phone: `+32487751895`,
 		email: `ale.montilla.dev@gmail.com`,
 		address: `Rue de la Tonne, 80B 4000 Liege, Belgium`,
-		profession: [`Web Developer`],
+		profession: [`Web Developer.`],
 		profilePiPicture: profilePicture,
 		resume,
 		logo,
@@ -174,6 +174,23 @@ const personData = {
 			image: multicube,
 			repo: 'https://github.com/multicube-hyf/backend',
 			url: `https://multicube.netlify.app/`,
+		},
+		{
+			title: 'LigthZ',
+			technologies: [
+				'React, ',
+				`Bootstrap, `,
+				`Nodejs, `,
+				`Express, `,
+				'MongoDB, ',
+				`JWT, `,
+				`Heroku`,
+			],
+			about:
+				'This project was built to be used by Venezuelans in times of crisis, consists of a webpage that shows the user the reports of the places where there is electricity and where there is not. This was my final project as a student at Hack Your Future Belgium, I was part of the backend team.',
+			image: LigthZ,
+			repo: 'https://github.com/AlejoVE/lightz/tree/Alejandro',
+			url: `https://havelight.herokuapp.com/lightz`,
 		},
 		// {
 		// 	title: ' Portfolio',

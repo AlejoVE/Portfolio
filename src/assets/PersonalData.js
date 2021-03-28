@@ -4,7 +4,7 @@ import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
 import LigthZ from './images/lightZ-min.png';
 // import bivak from './images/bivak.png';
-import musicApp from './images/music-app-min.png';
+import musicApp from './images/musicApp-min.png';
 import manon from './images/Manon-Brulard.jpg';
 import logo from './images/logo.png';
 import bg1 from './images/bg-1.jpg';

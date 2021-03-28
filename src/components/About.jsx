@@ -25,7 +25,7 @@ const About = () => {
 				<div className='col-xs-12 col-sm-12 col-md-8'>
 					<ul>
 						{person.background.map((bg, index) => (
-							<li key={index} className='lead'>
+							<li key={index} className='mb-3 lead'>
 								{`${bg.experience} `}
 								<a
 									href={bg.url}

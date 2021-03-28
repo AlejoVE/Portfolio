@@ -19,12 +19,15 @@ const Projects = () => {
 									key={index}
 									className='col-xs-12 col-sm-12 col-md-6 col-lg-4 padding'
 								>
-									<div className='card'>
+									<div className='card bg-light'>
+										<h3 className='pt-2 pb-2 text-center text-dark bg-light'>
+											{project.title}
+										</h3>
 										<a
 											href={project.url}
 											target='_blank'
 											rel='noopener noreferrer'
-											className='image-link'
+											className='image-link border-top'
 										>
 											<img
 												src={project.image}
@@ -45,10 +48,7 @@ const Projects = () => {
 												<div className='container-fluid padding bg-light text-dark'>
 													<div className='row'>
 														<div className='col-12'>
-															<h5 className='pt-4 text-center'>
-																{project.title}
-															</h5>
-															<p className='about-project'>
+															<p className='mt-4 about-project'>
 																{project.about}
 															</p>
 															<p className='about-project'>

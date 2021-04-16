@@ -102,12 +102,12 @@ const personData = {
 		},
 		{
 			name: `back-end`,
-			language: [`Node,`, `Express`],
+			language: [`Node,`, `Express, `, `PHP`],
 			icon: `fas fa-code`,
 		},
 		{
 			name: `database`,
-			language: [`MongoDB,`, `SQLite`],
+			language: [`MongoDB,`, `SQLite, `, `MySQL`],
 			icon: `fas fa-database`,
 		},
 		{

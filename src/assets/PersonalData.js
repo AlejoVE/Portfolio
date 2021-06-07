@@ -3,6 +3,7 @@ import resume from './documents/resume-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
 import LigthZ from './images/lightZ-min.png';
+import mwenbwa from './images/Mwenbwa.png';
 // import bivak from './images/bivak.png';
 import musicApp from './images/musicApp-min.png';
 import manon from './images/Manon-Brulard.jpg';
@@ -133,6 +134,16 @@ const personData = {
 	],
 
 	projects: [
+		{
+			title: 'Mwenbwa',
+			technologies: ['React,', `CSS,`, `NodeJS,`,`Express, `,`Redux, `,`JWT, `, `MongoDB, `,`Leaflet, `,`Docker, `,`Webpack, `, `Heroku`],
+			about: `Mwenbwa is a WebApp that consist in an online IDLE game, based in Liège. I developed it completely from scratch together with a colleague.
+
+			We made the backend with a REST API architecture.`,
+			image: mwenbwa,
+			repo: `https://github.com/AlejoVE/mwenbwa_mern/tree/main`,
+			url: `https://mwenbwa-jepsens-4-27.herokuapp.com/`,
+		},
 		{
 			title: 'MusicApp',
 			technologies: ['React,', `SASS,`, `Spotify API,`, `Netlify`],

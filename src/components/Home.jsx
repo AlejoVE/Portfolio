@@ -32,7 +32,7 @@ const Home = () => {
 						<a href='#contact'>
 							<button
 								type='button'
-								className='btn btn-outline-light btn-lg'
+								className='btn btn-info btn-lg'
 							>
 								Contact me
 							</button>

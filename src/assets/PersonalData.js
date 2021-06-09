@@ -8,8 +8,8 @@ import mwenbwa from './images/Mwenbwa.png';
 import musicApp from './images/musicApp-min.png';
 import manon from './images/Manon-Brulard.jpg';
 import logo from './images/logo.png';
-import bg1 from './images/bg-1.jpg';
-import bg2 from './images/bg-2.jpg';
+import bg1 from './images/img-3.jpg';
+import bg2 from './images/img-5.jpg';
 // import bg3 from './images/bg-3.jpg';
 
 const personData = {
@@ -38,7 +38,7 @@ const personData = {
 		},
 		{
 			url: `https://github.com/AlejoVE`,
-			icon: `fab fa-github`,
+			icon: `fab fa-github-square`,
 			name: `Github`,
 		},
 		{

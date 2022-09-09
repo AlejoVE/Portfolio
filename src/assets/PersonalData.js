@@ -1,7 +1,7 @@
 import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/CV-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
-import calendarApp from './images/calendar-app-min.png';
+// import calendarApp from './images/calendar-app-min.png';
 import LigthZ from './images/lightZ-min.png';
 import mwenbwa from './images/Mwenbwa.png';
 import podcast from './images/podcast-fm.png';

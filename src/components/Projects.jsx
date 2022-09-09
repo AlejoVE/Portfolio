@@ -53,7 +53,7 @@ const Projects = () => {
 															</p>
 															<p className='about-project'>
 																{' '}
-																check the repo{' '}
+																Check the repo{' '}
 																<a
 																	href={project.repo}
 																	target='_blank'

@@ -8,18 +8,18 @@ import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
-const App=()=> {
-  return (
-      <>
-        <Header/> 
-         <Home />
-         <About />
-         <Skills />
-         <Projects />
-         <Contact />
-         <Footer/>
-      </>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+			<Home />
+			<About />
+			<Skills />
+			<Projects />
+			<Contact />
+			<Footer />
+		</>
+	);
+};
 
 export default App;

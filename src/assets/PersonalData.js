@@ -4,6 +4,9 @@ import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
 import LigthZ from './images/lightZ-min.png';
 import mwenbwa from './images/Mwenbwa.png';
+import podcast from './images/podcast-fm.png';
+import guitarLA from './images/guitar-la.png';
+import laCafeteria from './images/la-cafeteria.png';
 // import bivak from './images/bivak.png';
 import musicApp from './images/musicApp-min.png';
 import manon from './images/Manon-Brulard.jpg';
@@ -165,24 +168,24 @@ const personData = {
 			repo: `https://github.com/AlejoVE/MusicApp`,
 			url: `https://music-app-alejove.netlify.app/`,
 		},
-		{
-			title: 'CalendarApp',
-			technologies: [
-				'React,',
-				'Redux,',
-				`Bootstrap,`,
-				`Nodejs,`,
-				`MongoDB,`,
-				`Express,`,
-				'JWT, ',
-				`Heroku,`,
-				`Netlify`,
-			],
-			about: `Cooperative calendar application that can be used by teams.`,
-			image: calendarApp,
-			repo: 'https://github.com/AlejoVE/Calendar-app-MERN',
-			url: `https://calendar-app-mern.netlify.app/`,
-		},
+		// {
+		// 	title: 'CalendarApp',
+		// 	technologies: [
+		// 		'React,',
+		// 		'Redux,',
+		// 		`Bootstrap,`,
+		// 		`Nodejs,`,
+		// 		`MongoDB,`,
+		// 		`Express,`,
+		// 		'JWT, ',
+		// 		`Heroku,`,
+		// 		`Netlify`,
+		// 	],
+		// 	about: `Cooperative calendar application that can be used by teams.`,
+		// 	image: calendarApp,
+		// 	repo: 'https://github.com/AlejoVE/Calendar-app-MERN',
+		// 	url: `https://calendar-app-mern.netlify.app/`,
+		// },
 		{
 			title: 'MultiCube',
 			technologies: [
@@ -214,6 +217,30 @@ const personData = {
 			image: LigthZ,
 			repo: 'https://github.com/AlejoVE/lightz/tree/Alejandro',
 			url: `https://havelight.herokuapp.com/lightz`,
+		},
+		{
+			title: 'Podcast FM',
+			technologies: ['HTML, ', `SCSS, `, `Netlify`],
+			about: 'Responsive landing page for a fictitious podcast app. This project was done as a practice of SCSS.',
+			image: podcast,
+			repo: 'https://github.com/AlejoVE/podcast-app',
+			url: `https://podcast-app-alejove.netlify.app/`,
+		},
+		{
+			title: 'La Cafeteria',
+			technologies: ['HTML, ', `SCSS, `, 'Gulp, ', `Netlify`],
+			about: 'Complete responsive website for a fictitious coffee shop. This project was done as a practice of SCSS and how to use Gulp to create images (webp, avif), compile and minify the css code.',
+			image: laCafeteria,
+			repo: 'https://github.com/AlejoVE/la-cafeteria',
+			url: `https://la-cafeteria-alejove.netlify.app/`,
+		},
+		{
+			title: 'Guitar LA',
+			technologies: ['HTML, ', `CSS, `, 'Gulp, ', `Netlify`],
+			about: 'Complete website for a fictitious guitar store. This project was done as a practice of CSS and BEM methodology.',
+			image: guitarLA,
+			repo: 'https://github.com/AlejoVE/guitar-la',
+			url: `https://guitar-alejove.netlify.app/`,
 		},
 		// {
 		// 	title: ' Portfolio',

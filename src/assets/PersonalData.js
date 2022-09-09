@@ -1,5 +1,5 @@
 import profilePicture from './images/profilePicture.jpg';
-import resume from './documents/resume-Alejandro-Montilla.pdf';
+import resume from './documents/CV-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
 import calendarApp from './images/calendar-app-min.png';
 import LigthZ from './images/lightZ-min.png';
@@ -50,12 +50,12 @@ const personData = {
 
 	background: [
 		{
-			school: `BeCode`,
+			school: `BeCode.`,
 			url: `https://becode.org/`,
-			experience: `Currently Junior Web Developer at `,
+			experience: `Alumni `,
 		},
 		{
-			school: `Hack Your Future Belgium`,
+			school: `Hack Your Future Belgium.`,
 			url: `https://hackyourfuture.be/`,
 			experience: `I graduated as a fullstack web developer after completing an intensive 8-month program at `,
 		},
@@ -93,8 +93,9 @@ const personData = {
 			language: [
 				`HTML5,`,
 				`CSS3,`,
-				`JavaScript,`,
+				`Javascript,`,
 				`React,`,
+				`Vue,`,
 				`Redux,`,
 				`Bootstrap 4,`,
 				`SASS`,
@@ -103,7 +104,7 @@ const personData = {
 		},
 		{
 			name: `back-end`,
-			language: [`Node,`, `Express, `, `PHP`],
+			language: [`Node,`, `Express, `, `Socket.io`],
 			icon: `fas fa-code`,
 		},
 		{
@@ -136,7 +137,19 @@ const personData = {
 	projects: [
 		{
 			title: 'Mwenbwa',
-			technologies: ['React,', `CSS,`, `NodeJS,`,`Express, `,`Redux, `,`JWT, `, `MongoDB, `,`Leaflet, `,`Docker, `,`Webpack, `, `Heroku`],
+			technologies: [
+				'React,',
+				`CSS,`,
+				`NodeJS,`,
+				`Express, `,
+				`Redux, `,
+				`JWT, `,
+				`MongoDB, `,
+				`Leaflet, `,
+				`Docker, `,
+				`Webpack, `,
+				`Heroku`,
+			],
 			about: `Mwenbwa is a WebApp that consist in an online IDLE game, based in Liège. I developed it completely from scratch together with a colleague.
 
 			We made the backend with a REST API architecture.`,
@@ -197,8 +210,7 @@ const personData = {
 				`JWT, `,
 				`Heroku`,
 			],
-			about:
-				'This project was built to be used by Venezuelans in times of crisis, consists of a webpage that shows the user the reports of the places where there is electricity and where there is not. This was my final project as a student at Hack Your Future Belgium, I was part of the backend team.',
+			about: 'This project was built to be used by Venezuelans in times of crisis, consists of a webpage that shows the user the reports of the places where there is electricity and where there is not. This was my final project as a student at Hack Your Future Belgium, I was part of the backend team.',
 			image: LigthZ,
 			repo: 'https://github.com/AlejoVE/lightz/tree/Alejandro',
 			url: `https://havelight.herokuapp.com/lightz`,

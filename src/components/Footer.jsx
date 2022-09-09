@@ -6,21 +6,22 @@ const Footer = () => {
 		<footer>
 			<div className='container-fluid padding'>
 				<div className='row text-center'>
-					<div className='col-md-4'>
+					<div className='col-md-6'>
 						{/* <img src={person.about.logo} width="50" height="52" alt="logo"/> */}
-						<span>Alejandro</span>
+						<hr className='light' />
+						<span>Alejandro Montilla</span>
 						<hr className='light' />
 						<p>+32 487 75 18 95</p>
 						<p>ale.montilla.dev@gmail.com</p>
 					</div>
-					<div className='col-md-4'>
+					{/* <div className='col-md-4'>
 						<hr className='light' />
 						<h5>Address</h5>
 						<hr className='light' />
 						<p>Rue de la Tonne, 80B</p>
 						<p>Liege, Belgium</p>
-					</div>
-					<div className='col-md-4'>
+					</div> */}
+					<div className='col-md-6'>
 						<hr className='light' />
 						<h5>Social Media</h5>
 						<hr className='light' />

@@ -1,9 +1,11 @@
 import profilePicture from './images/profilePicture.jpg';
 import resume from './documents/CV-Alejandro-Montilla.pdf';
 import multicube from './images/multicube-min.png';
+import simon from './images/simon-says.png';
+import mastermind from './images/master-mind.png';
 // import calendarApp from './images/calendar-app-min.png';
-import LigthZ from './images/lightZ-min.png';
-import mwenbwa from './images/Mwenbwa.png';
+// import LigthZ from './images/lightZ-min.png';
+// import mwenbwa from './images/Mwenbwa.png';
 import podcast from './images/podcast-fm.png';
 import guitarLA from './images/guitar-la.png';
 import laCafeteria from './images/la-cafeteria.png';
@@ -138,28 +140,28 @@ const personData = {
 	],
 
 	projects: [
-		{
-			title: 'Mwenbwa',
-			technologies: [
-				'React,',
-				`CSS,`,
-				`NodeJS,`,
-				`Express, `,
-				`Redux, `,
-				`JWT, `,
-				`MongoDB, `,
-				`Leaflet, `,
-				`Docker, `,
-				`Webpack, `,
-				`Heroku`,
-			],
-			about: `Mwenbwa is a WebApp that consist in an online IDLE game, based in Liège. I developed it completely from scratch together with a colleague.
+		// {
+		// 	title: 'Mwenbwa',
+		// 	technologies: [
+		// 		'React,',
+		// 		`CSS,`,
+		// 		`NodeJS,`,
+		// 		`Express, `,
+		// 		`Redux, `,
+		// 		`JWT, `,
+		// 		`MongoDB, `,
+		// 		`Leaflet, `,
+		// 		`Docker, `,
+		// 		`Webpack, `,
+		// 		`Heroku`,
+		// 	],
+		// 	about: `Mwenbwa is a WebApp that consist in an online IDLE game, based in Liège. I developed it completely from scratch together with a colleague.
 
-			We made the backend with a REST API architecture.`,
-			image: mwenbwa,
-			repo: `https://github.com/AlejoVE/mwenbwa_mern/tree/main`,
-			url: `https://mwenbwa-jepsens-4-27.herokuapp.com/`,
-		},
+		// 	We made the backend with a REST API architecture.`,
+		// 	image: mwenbwa,
+		// 	repo: `https://github.com/AlejoVE/mwenbwa_mern/tree/main`,
+		// 	url: `https://mwenbwa-jepsens-4-27.herokuapp.com/`,
+		// },
 		{
 			title: 'MusicApp',
 			technologies: ['React,', `SASS,`, `Spotify API,`, `Netlify`],
@@ -167,6 +169,22 @@ const personData = {
 			image: musicApp,
 			repo: `https://github.com/AlejoVE/MusicApp`,
 			url: `https://music-app-alejove.netlify.app/`,
+		},
+		{
+			title: 'Master Mind',
+			technologies: ['Typescript', 'React,', `SASS,`, `Netlify`],
+			about: `Digital version of the popular game "Master Mind". This game was made as final project, during the Typescript training of Hack Your Future Belgium.`,
+			image: mastermind,
+			repo: `https://github.com/AlejoVE/master-mind`,
+			url: `https://mastermind-alejove.netlify.app/start`,
+		},
+		{
+			title: 'Simon Says',
+			technologies: ['Typescript,', `React,`, `CSS`, `Netlify`],
+			about: `Digital version of the popular children's game "Simon Says". This project was made as React+Typescript practice, during the Typescript training of Hack Your Future Belgium.`,
+			image: simon,
+			repo: `https://github.com/AlejoVE/hyf-digitalents-typescript-week5`,
+			url: `https://simon-says-alejove.netlify.app/`,
 		},
 		// {
 		// 	title: 'CalendarApp',
@@ -202,22 +220,22 @@ const personData = {
 			repo: 'https://github.com/multicube-hyf/backend',
 			url: `https://multicube.netlify.app/`,
 		},
-		{
-			title: 'LigthZ',
-			technologies: [
-				'React, ',
-				`Bootstrap, `,
-				`Nodejs, `,
-				`Express, `,
-				'MongoDB, ',
-				`JWT, `,
-				`Heroku`,
-			],
-			about: 'This project was built to be used by Venezuelans in times of crisis, consists of a webpage that shows the user the reports of the places where there is electricity and where there is not. This was my final project as a student at Hack Your Future Belgium, I was part of the backend team.',
-			image: LigthZ,
-			repo: 'https://github.com/AlejoVE/lightz/tree/Alejandro',
-			url: `https://havelight.herokuapp.com/lightz`,
-		},
+		// {
+		// 	title: 'LigthZ',
+		// 	technologies: [
+		// 		'React, ',
+		// 		`Bootstrap, `,
+		// 		`Nodejs, `,
+		// 		`Express, `,
+		// 		'MongoDB, ',
+		// 		`JWT, `,
+		// 		`Heroku`,
+		// 	],
+		// 	about: 'This project was built to be used by Venezuelans in times of crisis, consists of a webpage that shows the user the reports of the places where there is electricity and where there is not. This was my final project as a student at Hack Your Future Belgium, I was part of the backend team.',
+		// 	image: LigthZ,
+		// 	repo: 'https://github.com/AlejoVE/lightz/tree/Alejandro',
+		// 	url: `https://havelight.herokuapp.com/lightz`,
+		// },
 		{
 			title: 'Podcast FM',
 			technologies: ['HTML, ', `SCSS, `, `Netlify`],

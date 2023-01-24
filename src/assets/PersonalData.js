@@ -1,5 +1,5 @@
 import profilePicture from './images/profilePicture.jpg';
-import resume from './documents/CV-Alejandro-Montilla.pdf';
+import resume from './documents/CV-Alejandro-Montilla-1.pdf';
 import multicube from './images/multicube-min.png';
 import simon from './images/simon-says.png';
 import mastermind from './images/master-mind.png';

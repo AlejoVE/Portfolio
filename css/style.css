@@ -567,7 +567,7 @@ pre code {
 	word-break: normal;
 }
 
-.border-custom { 
+.border-custom {
 	border: 5px solid red;
 }
 
@@ -11611,8 +11611,13 @@ h5,
 	height: 600px;
 }
 @media (max-width: 767.98px) {
+	.project {
+		height: auto;
+	}
 	.project.img-2 {
 		height: 285px;
+		opacity: 0;
+		border: 2px solid red;
 	}
 }
 .project.img-2 .text {
@@ -11657,7 +11662,7 @@ h5,
 }
 @media (max-width: 767.98px) {
 	.project .overlay {
-		opacity: 0.2;
+		opacity: 0.9;
 	}
 }
 .project .text {
@@ -11688,6 +11693,7 @@ h5,
 		opacity: 1;
 	}
 	.project .text span {
+		font-weight: 800;
 		color: rgba(255, 255, 255, 0.8);
 	}
 }

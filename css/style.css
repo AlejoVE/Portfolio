@@ -6592,6 +6592,12 @@ a.close.disabled {
 	touch-action: pan-y;
 }
 
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: pan-y !important;
+	touch-action: pan-y !important;
+}
+
 .carousel-inner {
 	position: relative;
 	width: 100%;

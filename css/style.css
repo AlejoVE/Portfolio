@@ -11971,6 +11971,7 @@ textarea.form-control {
 @media (max-width: 767.98px) {
 	.heading-section h2 {
 		font-size: 38px;
+		text-align: center;
 	}
 }
 .heading-section.heading-section-white .subheading {

@@ -11853,6 +11853,16 @@ textarea.form-control {
 	color: #000000;
 }
 
+@media (max-width: 767.98px) {
+	.ftco-heading-2 {
+		text-align: center;
+	}
+	.ul-footer {
+		text-align: center;
+		border: 2px solid red;
+	}
+}
+
 .ftco-footer-social li {
 	list-style: none;
 	margin: 0 10px 0 0;

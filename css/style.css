@@ -11705,7 +11705,7 @@ h5,
 }
 @media (max-width: 767.98px) {
 	.project .overlay {
-		opacity: 0.81;
+		opacity: 0.89;
 	}
 }
 .project .text {
@@ -11720,6 +11720,7 @@ h5,
 }
 .project .text h3 {
 	font-size: 20px;
+	font-weight: 800;
 }
 .project .text h3 a {
 	color: #fff;
@@ -11729,7 +11730,7 @@ h5,
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 800;
 }
 @media (max-width: 767.98px) {
 	.project .text {

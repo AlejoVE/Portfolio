@@ -583,6 +583,7 @@ pre code {
 	margin-right: auto;
 	margin-left: auto;
 }
+
 @media (min-width: 576px) {
 	.container {
 		max-width: 540px;
@@ -601,6 +602,20 @@ pre code {
 @media (min-width: 1200px) {
 	.container {
 		max-width: 1140px;
+	}
+}
+
+.container-skills {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (max-width: 767.98px) {
+	.container-skills {
+		width: 100%;
 	}
 }
 
@@ -11219,8 +11234,23 @@ h5,
 }
 
 .icon-svg {
-	width: 10rem;
-	height: 10rem;
+	width: 8rem;
+	height: 8rem;
+}
+
+@media (max-width: 767.98px) {
+	.icon-svg {
+		width: 4rem;
+		height: 4rem;
+	}
+	.div-float {
+		float: left;
+		width: 30%;
+	}
+
+	.div-float h3 {
+		font-size: 1rem !important;
+	}
 }
 
 .icon-svg-small {
@@ -11788,7 +11818,7 @@ textarea.form-control {
 }
 @media (max-width: 767.98px) {
 	.ftco-section {
-		padding: 6em 0;
+		padding: 0;
 	}
 }
 

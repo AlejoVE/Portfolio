@@ -1,0 +1,96 @@
+{
+  "title": "My Skills",
+  "subtitle": "Some of the technologies and tools that I have worked with.",
+  "skills": [
+    {
+      "name": "Gemini AI",
+      "icon": "SiGooglegemini",
+      "color": "#4990E9"
+    },
+    {
+      "name": "NodeJS",
+      "icon": "SiNodedotjs",
+      "color": "#339933"
+    },
+    {
+      "name": "React",
+      "icon": "SiReact",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "Vue",
+      "icon": "SiVuedotjs",
+      "color": "#4FC08D"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "SiJavascript",
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "SiTypescript",
+      "color": "#3178C6"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "SiMongodb",
+      "color": "#47A248"
+    },
+    {
+      "name": "MySQL",
+      "icon": "SiMysql",
+      "color": "#4479A1"
+    },
+    {
+      "name": "HTML5",
+      "icon": "SiHtml5",
+      "color": "#E34F26"
+    },
+    {
+      "name": "CSS3",
+      "icon": "SiCss3",
+      "color": "#1572B6"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "SiBootstrap",
+      "color": "#7952B3"
+    },
+    {
+      "name": "Sass",
+      "icon": "SiSass",
+      "color": "#CC6699"
+    },
+    {
+      "name": "Git",
+      "icon": "SiGit",
+      "color": "#F05032"
+    },
+    {
+      "name": "GitHub",
+      "icon": "SiGithub",
+      "color": "#FFFFFF"
+    },
+    {
+      "name": "Redux",
+      "icon": "SiRedux",
+      "color": "#764ABC"
+    },
+    {
+      "name": "Netlify",
+      "icon": "SiNetlify",
+      "color": "#00C7B7"
+    },
+    {
+      "name": "Heroku",
+      "icon": "SiHeroku",
+      "color": "#430098"
+    },
+    {
+      "name": "Web Sockets",
+      "icon": "SiSocketdotio",
+      "color": "#FFFFFF"
+    }
+  ]
+}

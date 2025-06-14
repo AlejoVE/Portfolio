@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Building Scalable React Applications",
+    "summary": "Learn best practices for structuring and scaling React applications for enterprise-level projects.",
+    "publication_date": "2024-12-15",
+    "article_url": "https://dev.to/alemontilla/building-scalable-react-applications"
+  },
+  {
+    "id": 2,
+    "title": "Modern CSS Techniques for Better UX",
+    "summary": "Explore advanced CSS features and techniques that can significantly improve user experience.",
+    "publication_date": "2024-11-28",
+    "article_url": "https://medium.com/@alemontilla/modern-css-techniques"
+  },
+  {
+    "id": 3,
+    "title": "TypeScript Best Practices in 2024",
+    "summary": "A comprehensive guide to writing better TypeScript code with modern patterns and practices.",
+    "publication_date": "2024-11-10",
+    "article_url": "https://hashnode.com/@alemontilla/typescript-best-practices"
+  }
+]

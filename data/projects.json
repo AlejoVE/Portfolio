@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "title": "Quizelia",
+    "description": "An application that allows users to transfer data (liked songs, playlists, artists, podcasts) between Spotify accounts securely and quickly, simplifying the migration of their favorite music.",
+    "image_url": "./images/quizelia.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "NextJS",
+      "Spotify API",
+      "AI tools (V0 for UI, Grok for code optimization)",
+      "Netlify"
+    ],
+    "live_site_url": "https://music-app-alejove.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/MusicApp",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "TransferMyMusic",
+    "description": "An application that allows users to transfer data (liked songs, playlists, artists, podcasts) between Spotify accounts securely and quickly, simplifying the migration of their favorite music.",
+    "image_url": "./images/transfermymusic.jpg",
+    "images": [
+      "./images/transfer1.png",
+      "./images/transfer2.png",
+      "./images/transfer3.png",
+      "./images/transfer4.png",
+      "./images/transfer5.png",
+      "./images/transfer6.png"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "NextJS",
+      "Spotify API",
+      "AI tools (V0 for UI, Grok for code optimization)",
+      "Netlify"
+    ],
+    "live_site_url": "https://music-app-alejove.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/MusicApp",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Music App",
+    "description": " A cool application where you can explore different categories, playlists and add songs to my Spotify playlist, using Spotify API.",
+    "image_url": "./images/musicApp.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "Saas",
+      "Spotify API",
+      "Netlify",
+      "JWT"
+    ],
+    "live_site_url": "https://music-app-alejove.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/MusicApp",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Master Mind",
+    "description": "Digital version of the popular game 'Master Mind'. This game was made as final project, during the Typescript training of Hack Your Future Belgium.",
+    "image_url": "./images/mastermind.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Sass",
+      "Netlify"
+    ],
+    "live_site_url": "https://mastermind-alejove.netlify.app/start",
+    "github_url": "https://github.com/AlejoVE/master-mind",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "MultiCube",
+    "description": "A web app to teach numbers and addition to children between 7 and 10 years old. This was a month-long bootcamp project, where I had a role as a fullstack developer, but mainly in the back-end",
+    "image_url": "./images/multicube.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "Bootstrap",
+      "Node",
+      "MongoDB",
+      "Netlify",
+      "Heroku"
+    ],
+    "live_site_url": "https://multicube.netlify.app/",
+    "github_url": "https://github.com/multicube-hyf/backend",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Simon Says",
+    "description": "Digital version of the popular children's game 'Simon Says'. This project was made as React+Typescript practice, during the Typescript training of Hack Your Future Belgium.",
+    "image_url": "./images/simon.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Saas",
+      "Netlify"
+    ],
+    "live_site_url": "https://simon-says-alejove.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/hyf-digitalents-typescript-week5",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "title": "Maps",
+    "description": "Map application using Mapbox API to search for addresses, the distance between the destination and the user, the time it would take to reach the destination by car and the best route to follow",
+    "image_url": "./images/maps.jpg",
+    "images": [
+      "/placeholder.svg?height=400&width=600"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Netlify"
+    ],
+    "live_site_url": "https://maps-alejove.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/maps",
+    "featured": true
+  }
+]

@@ -91,6 +91,16 @@
       "name": "Web Sockets",
       "icon": "SiSocketdotio",
       "color": "#FFFFFF"
+    },
+    {
+      "name": "n8n",
+      "icon": "SiN8N",
+      "color": "#F05032"
+    },
+    {
+      "name": "Docker",
+      "icon": "SiDocker",
+      "color": "#2560FF"
     }
   ]
 }

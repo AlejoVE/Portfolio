@@ -49,7 +49,7 @@
     },
     {
       "name": "CSS3",
-      "icon": "SiCss3",
+      "icon": "FaCss3Alt",
       "color": "#1572B6"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "name": "Heroku",
-      "icon": "SiHeroku",
+      "icon": "DiHeroku",
       "color": "#430098"
     },
     {

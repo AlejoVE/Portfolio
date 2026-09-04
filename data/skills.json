@@ -13,6 +13,11 @@
       "color": "#339933"
     },
     {
+      "name": "Express",
+      "icon": "SiExpress",
+      "color": "#339933"
+    },
+    {
       "name": "React",
       "icon": "SiReact",
       "color": "#61DAFB"

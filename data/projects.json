@@ -29,6 +29,34 @@
     "featured": true
   },
   {
+    "id": 3,
+    "title": "Gastrobar Tepuy",
+    "description": "A showcase website for a fictional restaurant, with multilingual support and a complete reservation system.",
+    "image_url": "./images/gastrobar.avif",
+    "images": [
+      "./images/gastrobar1.avif",
+      "./images/gastrobar2.avif",
+      "./images/gastrobar3.avif",
+      "./images/gastrobar4.avif"
+    ],
+    "technologies": [
+      "React",
+      "Javascript",
+      "Tailwind",
+      "NextJS",
+      "I18n",
+      "Gemini",
+      "Netlify",
+      "n8n",
+      "MySQL",
+      "Github",
+      "Github Actions"
+    ],
+    "live_site_url": "https://gastrobartepuy.netlify.app/",
+    "github_url": "https://github.com/AlejoVE/gastrobar-tepuy",
+    "featured": true
+  },
+  {
     "id": 2,
     "title": "TransferMyMusic",
     "description": "An application that allows users to transfer data (liked songs, playlists, artists, podcasts) between Spotify accounts securely and quickly, simplifying the migration of their favorite music.",

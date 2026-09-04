@@ -22,6 +22,7 @@ import {
 	SiSocketdotio,
 	SiN8N,
 	SiDocker,
+	SiExpress,
 } from 'react-icons/si';
 import { FaCss3Alt } from 'react-icons/fa';
 import { DiHeroku } from 'react-icons/di';
@@ -48,6 +49,7 @@ const iconMap: Record<string, React.ElementType> = {
 	SiDocker,
 	FaCss3Alt,
 	DiHeroku,
+	SiExpress,
 };
 
 interface SkillCardProps {
